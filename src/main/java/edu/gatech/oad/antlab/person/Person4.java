@@ -31,7 +31,7 @@ public class Person4 {
      */
     private String calc(String input) {
       String s = "";
-      for (char c: pname.toCharArray()) {
+      for (char c: input.toCharArray()) {
           c++;
           s += c;
       }
